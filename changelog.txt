@@ -1,0 +1,40 @@
+Date:    01-01-2023
+Version: 2.0.6
+===================
+1. Fixed: Minor CSS issues
+2. Compatibility: On the Firefox browser
+
+
+Date:    11-01-2022
+Version: 2.0.5
+===================
+1. Fixed: Minor JS issues
+
+
+Date:    07-21-2022
+Version: 2.0.4
+===================
+1. Fixed: Minor css issues
+
+
+Date:    05-18-2022
+Version: 2.0.3
+===================
+1. Fixed:  Mobile menu issue
+
+
+Date:    05-17-2022
+Version: 2.0.2
+===================
+1. Updated: Bootstrap v5.0.2
+
+Date:    04-05-2022
+Version: 2.0.1
+===================
+1. Fixed:  CSS Issue
+
+Date:    03-11-2022
+Version: 2.0.0
+===================
+1. Added: Newsletter Popup
+2. Fixed:  CSS Issue

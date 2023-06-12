@@ -1,0 +1,77 @@
+/* 
+    3. Slider css 
+*/
+
+// home two css here
+// home two css here
+.banner__items--content{
+  span{
+    color: var(--gray-color2);
+  }
+
+  h3{
+    color: #ffe3e3;
+  }
+}
+.slider__content{
+  height: 60vh;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  p{
+    color: var(--gray-color2);
+  }
+}
+.content--maintitle{
+  color: var(--light-color);
+}
+.home2__slider--bg {
+  background: url(../img/slider/shirts-slider.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  @media only screen and (max-width: 767px) {
+    background-position: 25%;
+  }
+  &.two {
+    background: url(../img/slider/jeans-slider.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    @media only screen and (max-width: 767px) {
+      background-position: 25%;
+    }
+  }
+  &.three {
+    background: url(../img/slider/coats-slider.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    @media only screen and (max-width: 767px) {
+      background-position: 25%;
+    }
+  }
+  &__inner {
+    @media only screen and (min-width: 992px) {
+      padding: 7rem 0;
+    }
+    @media only screen and (min-width: 1200px) {
+      padding: 8rem 0;
+    }
+    @media only screen and (min-width: 1366px) {
+      padding: 9.8rem 0;
+    }
+    @media only screen and (min-width: 1600px) {
+      padding: 17rem 0;
+    }
+  }
+}
+
+// home three css here
+
+.slider__content.style3.center {
+  padding-left: 0;
+  padding-top: 3rem;
+}

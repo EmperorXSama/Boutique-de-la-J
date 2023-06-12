@@ -1,0 +1,262 @@
+
+//Template Global CSS
+
+//Google Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+//Font Family
+
+$Roboto: 'Roboto', sans-serif;
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    line-height: 24px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: $Roboto;
+    color: $primary__color;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 0;
+    font-family: $Roboto;
+}
+h1{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    @media #{$large__device}{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    @media #{$medium__device}{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    @media #{$small__mobile}{
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+h2{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    @media #{$large__device}{
+        font-size: 27px;
+        line-height: 32px
+    }
+    @media #{$medium__device}{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    @media #{$small__mobile}{
+        font-size: 23px;
+        line-height: 30px;
+    }
+}
+
+h3{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    @media #{$large__device}{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    @media #{$medium__device}{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    @media #{$small__mobile}{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+h4{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    @media #{$medium__device}{
+        font-size: 17px;
+    }
+    @media #{$small__mobile}{
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #555;
+    @media #{$medium__device}{
+        font-size: 16px;
+    }
+    @media #{$small__mobile}{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+p:last-child {
+    margin-bottom: 0;
+}
+a{
+    display: inline-block;
+}
+a, button {
+    color: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+a, button, img, input, textarea, span {
+    transition: all 0.3s ease 0s;
+}
+.btn:focus{
+    box-shadow: none;
+}
+*:focus {
+    outline: none !important;
+}
+a:focus {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+button, input[type="submit"] {
+    cursor: pointer;
+}
+img {max-width:100%;height:auto}
+
+ul,ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+figure{
+    margin: 0;
+}
+.bg-grey{
+    background: $bg_grey_color;
+}
+.container{
+    max-width: 1200px;
+}
+.container-fluid.width-calc {
+    width: calc( 100% - 150px );
+    @media #{$extra__large__inner}{
+        width: calc( 100% - 100px );
+    }
+    @media #{$extra__large__inner2}{
+        width: calc( 100% - 50px );
+    }
+    @media #{$large__device}{
+        width: 100%;
+    }
+    @media #{$medium__device}{
+        width: 100%;
+    }
+    @media #{$small__mobile}{
+        width: 100%;
+    }
+}
+
+.header__transparent{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+.section__fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    transition: all .25s ease;
+    backface-visibility: hidden;
+    perspective: 800px;
+}
+.section__mp{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+.action__btn{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+    margin: .4em;
+    padding: 1em;
+    cursor: pointer;
+    background: $secondary__color;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    &:hover{
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.7);
+        transform: scale(1.1);
+        color: #ffffff;
+    }
+    &:focus{
+        color: #ffffff;
+    }
+}
+
+
+//Template Global Margin
+.mb-55{
+    margin-bottom: 55px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+//Template Global Padding
+
+
+
+
+
+
+

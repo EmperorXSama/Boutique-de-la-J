@@ -1,0 +1,67 @@
+// Start documentation dark css here
+.template__dark--color {
+    background: $primary__color;
+    color: $white;
+    & .panel-menu li.mm-close-parent{
+        background: #000000;
+    }
+    & .panel-menu{
+        background: $primary__color;
+    }
+    & .doc__header{
+        background: #000000;
+    }
+    & p{
+        color: $white;
+    }
+    & .doc__sidebar{
+        background: #000000;
+        padding: 12px;
+        border-radius: 6px;
+    }
+    & .doc__nav--menu__links{
+        background: $primary__color;
+    }
+    & .nav__sub--menu__links{
+        color: $white;
+        &:hover{
+            color: $secondary__color;
+        }
+    }
+    & .doc__structures--articles__links{
+        color: $white;
+        &:hover{
+            color: $secondary__color;
+        }
+    }
+    & .home__section--title{
+        color: $white;
+    }
+    & .doc__services--item{
+        background: #000000;
+        &:hover{
+            background: $secondary__color;
+        }
+    }
+    & .doc__footer{
+        background: #000000;
+    }
+    & .file__structures--wrapper{
+        background: #000000;
+    }
+    & .file__structures--items{
+        color: $white;
+    }
+    & .file__structures--assets__name{
+        color: $white;
+    }
+    & .doc__credits--wrapper{
+        background: #000000;
+    }
+    & .doc__credits--links{
+        color: $white;
+        &:hover{
+            color: $secondary__color;
+        }
+    }
+}

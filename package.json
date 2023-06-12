@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "compilersass": "node-sass suruchi/assets/scss/style.scss suruchi/assets/css/style.css"
+  }
+}

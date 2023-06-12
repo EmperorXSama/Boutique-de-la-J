@@ -1,0 +1,26 @@
+
+// Variables Color
+
+//Primary Color
+$primary__color: #232323;
+$primary__color2: #272727;
+
+
+//Secondary Color
+$secondary__color: #ee2761;
+$bg_grey_color: #f7f7fb;
+
+
+
+//Dipult Color
+$white: #ffffff;
+
+
+//Responsive Variables
+$extra__large__device : 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$extra__large__inner : 'only screen and (min-width: 1366px) and (max-width: 1600px)';
+$extra__large__inner2 : 'only screen and (min-width: 1200px) and (max-width: 1365px)';
+$large__device : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$medium__device : 'only screen and (min-width: 768px) and (max-width: 991px)';
+$small__mobile:'only screen and (max-width: 767px)';
+$extra__small: 'only screen and (max-width: 575px)';
